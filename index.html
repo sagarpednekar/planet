@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <sript src="js/babylon.2.1.debug.js"> </sript>
+    <sript src="js\hand.js"> </sript>
+    <style>
+        html,body{
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding:0;
+        }
+        #rendorCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+</head>
+<body>
+<canvas id="rendorCanvas"></canvas>
+<script src="js\babylon.2.1.js"></script>
+<script src = "js\application.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+        BjsApp.init();
+    });
+</script>
+</body>
+</html>
