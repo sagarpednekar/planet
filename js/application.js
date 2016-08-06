@@ -10,7 +10,8 @@ BjsApp.init = function () {
     // create scene
     var scene = new BABYLON.Scene(engine);
     // create camera
-    var camera = new BABYLON.ArcRotateCamera('FreeCamera',0,0,15,BABYLON.Vector3.Zero(),scene); //FreeCamera('FreeCamera',0,0,15,scene);
+    var camera = new BABYLON.ArcRotateCamera('FreeCamera',0,0,15,BABYLON.Vector3.Zero(),scene);
+    //FreeCamera('FreeCamera',0,0,15,scene);
     camera.attachControl(canvas);
     camera.upperRadiusLimit = 80;
     // create light
